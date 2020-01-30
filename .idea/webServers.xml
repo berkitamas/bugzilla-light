@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2d54d4e6-3277-4ca3-91bd-87e45d326632" name="VPS" url="http://adatb.btj.hu">
+        <fileTransfer host="vps.btj.hu" port="72" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/sites/adatb" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="72" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
